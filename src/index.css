@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./assets/Gilroy-Medium.ttf);
+}
+* {
+    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Gilroy;
+}
+::selection {
+    color: rgb(232, 159, 44);
+}
